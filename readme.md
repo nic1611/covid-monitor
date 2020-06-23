@@ -3,5 +3,15 @@
 
 ## Instalação
 ###### Após clonar o repositório
-###### Digite o comando: npm install
-###### Para testar o projeto digite: npm run serve
+###### Digite os comandos: 
+```
+npm install
+npm run serve
+```
+
+## Tecnologias
+[Babel](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel)
+[typescript](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescriptrel=) 
+[pwa](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa)
+[router](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router)
+[eslint](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint)
