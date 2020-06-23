@@ -2,8 +2,8 @@
 ##### Projeto com o objetivo de apresentar um monitoramento diário sobre a situação do país diante a pandemia do vírus covid-19.
 
 ## Localize
-* [Instalação](instalação)
-* [Tecnologias](tecnologias)
+* [Instalação](#instalação)
+* [Tecnologias](#tecnologias)
 
 ## Instalação
 ##### Após clonar o repositório digite os comandos: 
