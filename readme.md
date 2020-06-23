@@ -2,10 +2,10 @@
 ##### Projeto com o objetivo de apresentar um monitoramento diário sobre a situação do país diante a pandemia do vírus covid-19.
 
 ## Instalação
-##### Após clonar o repositório
-##### Digite os comandos: 
+##### Após clonar o repositório digite os comandos: 
 
 > npm install
+
 > npm run serve
 
 ## Tecnologias
