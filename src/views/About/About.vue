@@ -33,6 +33,7 @@
            50.349
           </h5>
       </div>
+      <footer-new/>
     </b-container>
   </div>
 </template>
