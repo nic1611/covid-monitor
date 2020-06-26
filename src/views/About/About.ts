@@ -1,5 +1,5 @@
 import { BIconArrowLeftSquareFill } from 'bootstrap-vue';
-import FooterNew from '../../Components/Footer/Footer.vue';
+import FooterNew from '../../components/Footer/Footer.vue';
 
 export default {
   name: 'About',

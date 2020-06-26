@@ -1,8 +1,20 @@
-import { BIconArrowRightSquareFill } from 'bootstrap-vue';
+import { BIconArrowRightSquareFill } from "bootstrap-vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    BIconArrowRightSquareFill,
+    BIconArrowRightSquareFill
   },
+  data() {
+    return {
+      dadosCovid:"",
+    };
+  },
+  methods: {
+    getDados(): void {
+      fetch("")
+      .then(response=>{return response.json})
+      .then(json => {})
+    }
+  }
 };
