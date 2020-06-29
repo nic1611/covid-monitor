@@ -1,6 +1,6 @@
 export interface CasosBrasil {
-    casosRecuperados: '',
-    casosConfirmados: '',
-    casosEmMonitoramento: '',
-    mortesTotais: '',
+    casosRecuperados: '';
+    casosConfirmados: '';
+    casosEmMonitoramento: '';
+    mortesTotais: '';
   }

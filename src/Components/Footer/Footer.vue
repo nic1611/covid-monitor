@@ -4,6 +4,7 @@
         Contato
     </h6>
     <b-row align-h="center" align-v="center">
+      <a class="nome" href="https://www.linkedin.com/in/alejandro-pietry-5383a3175/">
       <b-col class="d-flex">
         <div>
           <img
@@ -12,12 +13,14 @@
             alt
           />
         </div>
-        <div class="d-block ml-2">
-          <h6>Alejandro Pietry</h6>
+        <div class="d-block ml-2" >
+          <h6>Alejandro Pietry <img class="imgLinkedin" src="https://pbs.twimg.com/media/C5wywrUWUAE9YV9.png" alt=""/></h6>
           <h6>Desenvolvedor .NET</h6>
         </div>
       </b-col>
-      <b-col class="d-flex">
+      </a>
+      <a class="nome" href="https://www.linkedin.com/in/nicolas-soffi-565028198">
+      <b-col  class="d-flex">
         <div>
           <img
             class="img-width shadow"
@@ -26,10 +29,11 @@
           />
         </div>
         <div class="d-block ml-2">
-          <h6>Nicolas Soffi</h6>
+          <h6>Nicolas Soffi <img class="imgLinkedin" src="https://pbs.twimg.com/media/C5wywrUWUAE9YV9.png" alt=""/></h6>
           <h6>Desenvolvedor .NET</h6>
         </div>
       </b-col>
+      </a>
     </b-row>
   </footer>
 </template>

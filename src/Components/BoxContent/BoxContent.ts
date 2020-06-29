@@ -13,6 +13,11 @@ export default Vue.extend({
   mounted() {
     this.getDadosEstados();
   },
+  filters: {
+    adcPonto(numero: string) {
+      return numero.replace(/\s/gim, '.');
+    },
+  },
   methods: {
     getDadosEstados() {
       const urlEstadosAPI = 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalEstado';
