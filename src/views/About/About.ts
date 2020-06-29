@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import FooterNew from '../../components/Footer/Footer.vue';
-import BoxContent from '../../components/BoxContent/BoxContent.vue';
+import FooterNew from '../../Components/Footer/Footer.vue';
+import BoxContent from '../../Components/BoxContent/BoxContent.vue';
 import { CasosBrasil } from '../../types/CasosBrasil';
 
 export default Vue.extend({
