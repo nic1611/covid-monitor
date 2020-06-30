@@ -3,9 +3,9 @@
     <h6 class="mb-2">
         Contato
     </h6>
-    <b-row align-h="center" align-v="center">
+    <b-row class="d-flex justify-content-around">
       <a class="nomePessoa" href="https://www.linkedin.com/in/alejandro-pietry-5383a3175/">
-      <b-col class="d-flex">
+      <b-col align-self="center" class="d-flex mb-2">
         <div>
           <img
             class="img-width shadow"
@@ -20,7 +20,7 @@
       </b-col>
       </a>
       <a class="nomePessoa" href="https://www.linkedin.com/in/nicolas-soffi-565028198">
-      <b-col  class="d-flex">
+      <b-col  class="d-flex mb-2">
         <div>
           <img
             class="img-width shadow"
@@ -35,7 +35,7 @@
       </b-col>
       </a>
       <a class="nomePessoa" href="https://www.linkedin.com/in/gianlucca-claudino-756049186/">
-      <b-col class="d-flex">
+      <b-col class="d-flex mb-2">
         <div>
           <img
           class="img-width shadow"
