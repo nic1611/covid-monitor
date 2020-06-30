@@ -7,13 +7,15 @@
           Casos recuperados
         </h6>
         <h2>
-          {{ casosBrasil.casosRecuperados }}
+          {{ Intl.NumberFormat().format(casosBrasil.casosRecuperados)
+          .toString().replace(/\s/gim, '.') }}
         </h2>
         <h6>
           Casos em acompanhamento
         </h6>
         <h3>
-          {{ casosBrasil.casosEmMonitoramento }}
+          {{ Intl.NumberFormat().format(casosBrasil.casosEmMonitoramento)
+          .toString().replace(/\s/gim, '.') }}
         </h3>
       </div>
       <div class="d-block m-3 p-3 div-center-second shadow">
@@ -21,13 +23,15 @@
           CASOS CONFIRMADOS
         </h6>
         <h5>
-          {{ casosBrasil.casosConfirmados }}
+          {{ Intl.NumberFormat().format(casosBrasil.casosConfirmados)
+          .toString().replace(/\s/gim, '.') }}
         </h5>
         <h6>
           ÓBITOS CONFIRMADOS
         </h6>
         <h5>
-          {{ casosBrasil.mortesTotais }}
+          {{ Intl.NumberFormat().format(casosBrasil.mortesTotais)
+          .toString().replace(/\s/gim, '.') }}
         </h5>
       </div>
       <box-content />
