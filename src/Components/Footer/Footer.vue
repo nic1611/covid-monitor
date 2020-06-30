@@ -5,7 +5,7 @@
     </h6>
     <b-row class="d-flex justify-content-around">
       <a class="nomePessoa" href="https://www.linkedin.com/in/alejandro-pietry-5383a3175/">
-      <b-col align-self="center" class="d-flex mb-2">
+      <b-col class="d-flex mb-2">
         <div>
           <img
             class="img-width shadow"
@@ -20,7 +20,7 @@
       </b-col>
       </a>
       <a class="nomePessoa" href="https://www.linkedin.com/in/nicolas-soffi-565028198">
-      <b-col  class="d-flex mb-2">
+      <b-col class="d-flex mb-2">
         <div>
           <img
             class="img-width shadow"
