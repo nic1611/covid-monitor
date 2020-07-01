@@ -2,3 +2,9 @@
     width: 50px;
     border-radius: 50%;
 }
+.nomePessoa {
+    color: inherit;
+}
+.imgLinkedin{
+    width: 15px;
+}

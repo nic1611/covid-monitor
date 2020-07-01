@@ -19,10 +19,14 @@
           <h6 class="item-uppercase item-bold text-center">{{ caso.nome }}</h6>
         </b-col>
         <b-col>
-          <h6 class="item-uppercase item-bold text-center">{{ caso.casosAcumulado }}</h6>
+          <h6 class="item-uppercase item-bold text-center">{{
+             Intl.NumberFormat().format(caso.casosAcumulado)
+             .toString().replace(/\s/gim, '.') }}</h6>
         </b-col>
         <b-col class="largura-30">
-          <h6 class="item-uppercase item-bold text-center">{{ caso.obitosAcumulado }}</h6>
+          <h6 class="item-uppercase item-bold text-center">{{
+             Intl.NumberFormat().format(caso.obitosAcumulado)
+             .toString().replace(/\s/gim, '.') }}</h6>
         </b-col>
       </b-row>
     </b-container>

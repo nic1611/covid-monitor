@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import FooterNew from '../../components/Footer/Footer.vue';
-import BoxContent from '../../components/BoxContent/BoxContent.vue';
+import FooterNew from '../../Components/Footer/Footer.vue';
+import BoxContent from '../../Components/BoxContent/BoxContent.vue';
 import { CasosBrasil } from '../../types/CasosBrasil';
 
 export default Vue.extend({
@@ -25,13 +25,17 @@ export default Vue.extend({
           const casosRecuperadosJsonValue = json.confirmados.recuperados;
           const casosConfirmadosJsonValue = json.confirmados.total;
           const casosEmMonitoramentoJsonValue = json.confirmados.acompanhamento;
+          const casosNovosJsonValue = json.confirmados.novos;
           // GetObitosValue
           const mortesTotalJsonValue = json.obitos.total;
+          const obitosNovosJsonValue = json.obitos.novos;
           this.casosBrasil = {
             casosRecuperados: casosRecuperadosJsonValue,
             casosConfirmados: casosConfirmadosJsonValue,
             casosEmMonitoramento: casosEmMonitoramentoJsonValue,
             mortesTotais: mortesTotalJsonValue,
+            casosNovos: casosNovosJsonValue,
+            obitosNovos: obitosNovosJsonValue
           };
         });
     },

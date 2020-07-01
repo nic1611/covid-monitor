@@ -1,10 +1,11 @@
 <template>
   <footer class="mt-5">
-    <h6 class="mb-2">
+    <h6 class="mb-4 text-center">
         Contato
     </h6>
-    <b-row align-h="center" align-v="center">
-      <b-col class="d-flex">
+    <b-row class="d-flex justify-content-around">
+      <a class="nomePessoa" href="https://www.linkedin.com/in/alejandro-pietry-5383a3175/">
+      <b-col class="d-flex mb-2">
         <div>
           <img
             class="img-width shadow"
@@ -12,12 +13,14 @@
             alt
           />
         </div>
-        <div class="d-block ml-2">
-          <h6>Alejandro Pietry</h6>
+        <div class="d-block ml-2" >
+          <h6>Alejandro Pietry <img class="imgLinkedin" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" alt=""/></h6>
           <h6>Desenvolvedor .NET</h6>
         </div>
       </b-col>
-      <b-col class="d-flex">
+      </a>
+      <a class="nomePessoa" href="https://www.linkedin.com/in/nicolas-soffi-565028198">
+      <b-col class="d-flex mb-2">
         <div>
           <img
             class="img-width shadow"
@@ -26,10 +29,26 @@
           />
         </div>
         <div class="d-block ml-2">
-          <h6>Nicolas Soffi</h6>
+          <h6>Nicolas Soffi <img class="imgLinkedin" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" alt=""/></h6>
           <h6>Desenvolvedor .NET</h6>
         </div>
       </b-col>
+      </a>
+      <a class="nomePessoa" href="https://www.linkedin.com/in/gianlucca-claudino-756049186/">
+      <b-col class="d-flex mb-2">
+        <div>
+          <img
+          class="img-width shadow"
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQGcZee2wryAZg/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=JtO61WHKM96OOZnRANJwcYm6AJrG5Jmx7d-_e6p2z90"
+          alt=""
+          />
+        </div>
+        <div class="d-block ml-2">
+          <h6>Gianlucca Claudino <img class="imgLinkedin" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" alt=""/></h6>
+          <h6>Desenvolvedor Front-End</h6>
+        </div>
+      </b-col>
+      </a>
     </b-row>
   </footer>
 </template>
