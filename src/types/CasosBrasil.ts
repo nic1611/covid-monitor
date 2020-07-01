@@ -3,4 +3,6 @@ export interface CasosBrasil {
     casosConfirmados: '';
     casosEmMonitoramento: '';
     mortesTotais: '';
+    casosNovos: '';
+    obitosNovos: '';
   }

@@ -1,6 +1,6 @@
 <template>
   <footer class="mt-5">
-    <h6 class="mb-2">
+    <h6 class="mb-4 text-center">
         Contato
     </h6>
     <b-row class="d-flex justify-content-around">
