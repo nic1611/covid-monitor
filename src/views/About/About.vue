@@ -1,10 +1,10 @@
 <template>
   <div class="about">
     <b-container>
-      <h6 class="mt-4">Painel Covid-19</h6>
+      <h6 class="mt-4 text-center">Painel Covid-19</h6>
       <b-row align-h="center" class="d-flex justify-content-around">
-        <b-col class="d-block mt-3 p-3 div-center shadow rounded col-11 col-md-4">
-          <div class="mb-5">
+        <b-col class="d-block mt-3 px-3 py-4 div-center shadow rounded col-11 col-md-4">
+          <div class="mb-3">
             <h6>Casos recuperados</h6>
             <h2>
               {{ Intl.NumberFormat().format(casosBrasil.casosRecuperados)
