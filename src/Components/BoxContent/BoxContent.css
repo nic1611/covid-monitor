@@ -1,8 +1,9 @@
   .item-uppercase{
     text-transform: uppercase;
   }
-
+  
   .item-bold{
     font-weight: bold;
+    color: #585858;
   }
 
