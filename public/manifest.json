@@ -77,5 +77,6 @@
         }
     ],
     "start_url": ".",
-    "display": "standal"
+    "display": "standal",
+    "background_color":"#fff"
 }
