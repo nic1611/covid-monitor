@@ -2,8 +2,17 @@
 ##### Projeto com o objetivo de apresentar um monitoramento diário sobre a situação do país diante a pandemia do vírus covid-19.
 
 ## Localize
+* [Teste](#teste)
+* [Imagens](#imagens)
 * [Instalação](#instalação)
 * [Tecnologias](#tecnologias)
+
+## Teste
+[Covid Brasil](https://red-sand-02662e70f.azurestaticapps.net/)
+
+## Imagens
+![Alt text](/img/Screenshot_1.png?raw=true "Desktop")
+![Alt text](/img/Screenshot_2.png?raw=true "Mobile")
 
 ## Instalação
 ##### Após clonar o repositório digite os comandos: 
